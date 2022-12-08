@@ -19,6 +19,7 @@ body {
     border-width: 0px;
     border-radius: 2px;
     transition-duration: 0.25s;
+    cursor: pointer;
 }
 
 .loginButton:hover {
@@ -34,6 +35,7 @@ body {
     background-color: #4752c4;
     border-width: 0px;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .loginButton:active {
@@ -50,6 +52,7 @@ body {
     background-color: #3c45a5;
     border-width: 0px;
     border-radius: 2px;
+    cursor: pointer;
 }
 .login {
     margin: auto;
